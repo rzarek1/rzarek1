@@ -32,9 +32,13 @@ img {
     border: 2px;
     border-radius: 80px;
     height: auto;
+    -webkit-transition: -webkit-transform 1s;    
    
     
 }
+
+img:hover {
+    transform: rotate(360deg) translate(0);}
     
 h1 {
     max-width: 350px;
@@ -112,6 +116,7 @@ a {
 }
 
 .footer {
+    display: block;
     max-width: 310px;
     margin-top: 01;
     margin-bottom: 5%;
@@ -123,5 +128,5 @@ a {
     font-style: normal;
     font-variant: normal;
     letter-spacing: 3px;
-    
-    color: whitesmoke;
+    color: whitesmoke;}
+
